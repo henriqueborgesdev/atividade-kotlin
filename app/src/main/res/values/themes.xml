@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Tema "de bootstrap": aplicado apenas até o Compose assumir o desenho da tela
+        em setContent { }. Não usamos Theme.Material3.* aqui de propósito, para não
+        depender da lib com.google.android.material — todo o Material 3 real desta
+        aula vem do Compose (androidx.compose.material3), via AppsBasicosTheme.kt.
+    -->
+    <style name="Theme.AppsBasicos" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
